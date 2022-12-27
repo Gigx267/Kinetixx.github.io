@@ -1,0 +1,377 @@
+.P1{
+    color: blue;
+}
+body{
+    background-image: url(swim.webp);
+ 
+    height: 100vh;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    max-width: 500%;
+}
+.Welcome{
+    height: 60px;
+    width: 7650px;
+    color: aquamarine;
+    font-size: 3.1rem;
+    padding-left: 400px;
+    padding-right:100px;
+    margin-right: 453em;
+    display: block;
+    opacity: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-feature-settings: "blwm";
+    font-size-adjust: initial;  
+    margin-right: 100px;
+    }
+    .MOTTO{
+        height: 5vh;
+        width: 1950px;
+        color: aquamarine;
+        background-color: cornflowerblue;
+        font-size: 1.1rem;
+        padding-left: 390px;
+        padding-right:100px;
+        margin-right: 453em;
+        display: block;
+        opacity: inherit;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: sans-serif;
+        font-style: italic;
+        font-feature-settings: "blwm";
+        font-size-adjust: initial;  
+        margin-right: 100px;
+
+        
+    }
+    .Logo{
+        height: 2vh;
+        width: 32px;
+    }
+
+    .QOD{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
+    .nav{
+        display: inline-flex;
+        padding:2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+
+    } 
+    .nav-links ul li a{
+        text-decoration: dashed;
+        font-size: 50px;
+        color:whitesmoke;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        align-items: center;
+        word-spacing: 200px;
+        justify-content: space-between 200em;
+        font-family: Lato;
+        color:black
+        text-decoration: none;
+        display: block;
+        padding-left: 2px;
+        white-space: break-spaces 47,59,329;
+        line-height: 1.1;
+        padding-top: 3px;
+      padding-bottom: 3px;
+  margin: 0px 789px 0px 0px ;
+        
+  
+        
+    }
+    
+.material-symbols-outlined {
+    box-sizing: border-box;
+    outline: none;
+    height: 30px;
+    visibility: visible;
+    display: block !important;
+    position: relative;
+    color:whitesmoke
+    margin: 90px auto;
+    text-align: center
+
+}
+.nav-links ul li :: ::after{
+    content: "";
+    width: 1em;
+    height: 2pt;
+    background: #363636;
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+    
+}
+.nav-links ul li:hover::after{
+    width:100%
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+background-image: url(swim.webp);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.text-box{
+    height: 10px;
+    width: 4450px;
+    color: aquamarine;
+    font-size: 1.1rem;
+    display: block;
+    opacity: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-feature-settings: "blwm";
+    font-size-adjust: initial;  
+    margin-right: 100px;
+    padding-top: 100px;
+ 
+}
+h1{
+    font-size: 25px;
+    font-weight: 200;
+  background-color: chocolate;
+}
+.test{
+
+ height: 100vh;
+ background-size: contain;
+
+ max-height: 100%;
+ max-width: 100%;
+ max-block-size: 100%;
+
+}
+.kj {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+    }
+.bsk{
+ 
+    color: aquamarine;
+    font-size: 2.1rem;
+    padding-left: 200px;
+    padding-right:100px;
+    margin-right: 453em;
+    display: block;
+    opacity: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-feature-settings: "blwm";
+    font-size-adjust: initial;  
+    margin-right: 100px;
+
+}
+    .BIO{
+        font-size: smaller;
+        color: navy;
+    }
+    .BIO2{
+        font-size: smaller;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(0, 126, 128);
+        font-weight: 300;
+   
+    }
+    .BIO3{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font-size: large;
+   background-color: yellowgreen;
+    }
+    h3 {
+    font-size: 2.5vw;
+    color: azure;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    height: 30px;
+    visibility: visible;
+    display: block !important;
+    position: relative;
+    color:whitesmoke
+    margin: 90px auto;
+    text-align: center
+    }
+   .kjb {
+    
+    <style>
+* {
+  box-sizing: border-box;
+  
+  
+}
+
+body {
+  margin: 4;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: block;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 100%; /* IE 10 */
+  flex: 100%;
+  padding: 4px 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color:brown;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  
