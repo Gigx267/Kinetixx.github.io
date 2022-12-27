@@ -1,0 +1,130 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="pill-nav">
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+        <button type="button" class="btn btn-success" ><a href="HOMEPAGE.HTML">Home</a></button>
+        <button type="button" class="btn btn-danger"><a href="Imagepage.html">Images</a></button>
+        <button type="button" class="btn btn-warning">
+            <a href="Blogpage.html">Blog</a></button>
+        <button type="button" class="btn btn-success"><a href="Tripspage.html">Groups&Trips</a></button>
+        <button type="button" class="btn btn-danger"><a href="contactpage.html">Contact</a></button>
+       
+      
+      </div>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Get In Touch</h2>
+<p>Ask How We May Help You</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Leave a message in details</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="c1.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Nigeria</option>
+          <option value="canada">UK</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="usa">Ghana</option>
+          <option value="australia">SouthAfrica</option>
+          <option value="canada">Kenya</option>
+          <option value="usa">Ethiopa</option>
+          <option value="canada">Tanzania</option>
+          <option value="usa">Mail</option>
+          <option value="canada">Senegal</option>
+          <option value="usa">Eypt</option>
+          <option value="canada">Cameroon</option>
+          <option value="usa">Gambia</option>
+          <option value="australia">Ivory Coast</option>
+          <option value="canada">Somaila</option>
+          <option value="australia">Sudan</option>
+          <option value="canada">Others</option>
+    
+    
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
