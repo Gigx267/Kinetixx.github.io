@@ -7,7 +7,7 @@
   
 </head>
 <body>
-  
+
   <!-- BootStrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -218,115 +218,12 @@
                  </head>
                  <body>
                  
-                 <!-- Header -->
-                 <div class="header" id="myHeader">
-                  <h1> Favourite Images of 2022 </h1>
-                   <p> </p>
-                   <button class="btn" onclick="one()">1</button>
-                   <button class="btn active" onclick="two()">2</button>
-                   <button class="btn" onclick="four()">3</button>
-                 </div>
                  
-                 <!-- Photo Grid -->
-                 <div class="row"> 
-                   <div class="column">
-                    <img src="Q1.PNG"style="width:90%">
-                    <img src="Q2.PNG"style="width:60%">
-                    <img src="Q3.PNG" style="width:90%">
-                    <img src="Q4.PNG">
-                    <img src="Q5.PNG">
-                    <img src="Q6.PNG">
-                  </div>
-                  <div class="column">
-                    <img src="Q7.PNG">
-                    <img src="Q8.PNG">
-                    <img src="Q9.PNG"style="width:90%">
-                    <img src="Q10.PNG">
-                    <img src="Q11.PNG">
-                    <img src="Q13.PNG"style="width:50%">
-                  </div>
-                  <div class="column">
-                    <img src="z1.jpg"style="height:20%">
-                    <img src="z2.jpg"style="width:40%">
-                    <img src="z3.jpg"style="width:30%">
-                    <img src="z4.jpg"style="widht:50%">
-                    <img src="z5.jpg">
-                    <img src="Q19.PNG"style="width:50%">
-                  </div>
-                </div>
-                <div class="column">
-                  <img src="Q13.PNG">
-                  <img src="Q14.PNG">
-                  <img src="Q15.PNG">
-                  <img src="Q16.PNG">
-                  <img src="Q17.PNG">
-                  <img src="Q40.PNG">
-                </div>
-                </div>
-                <div class="column">
-                  <img src="Q18.PNG">
-                  <img src="Q19.PNG">
-                  <img src="Q20.PNG">
-                  <img src="Q21.PNG">
-                  <img src="Q22.PNG">
-                  <img src="Q23.PNG">
-                </div>
-                <div class="column">
-                  <img src="Q35.PNG">
-                  <img src="Q30.PNG">
-                  <img src="Q31.PNG">
-                  <img src="Q32.PNG">
-                  <img src="Q33.PNG">
-                  <img src="Q34.PNG">
-  
-                   </div>
-                 </div>
                  
-                 <script>
-                 // Get the elements with class="column"
-                 var elements = document.getElementsByClassName("column");
-                 
-                 // Declare a loop variable
-                 var i;
-                 
-                 // Full-width images
-                 function one() {
-                     for (i = 0; i < elements.length; i++) {
-                     elements[i].style.msFlex = "100%";  // IE10
-                     elements[i].style.flex = "100%";
-                   }
-                 }
-                 
-                 // Two images side by side
-                 function two() {
-                   for (i = 0; i < elements.length; i++) {
-                     elements[i].style.msFlex = "50%";  // IE10
-                     elements[i].style.flex = "50%";
-                   }
-                 }
-                 
-                 // Four images side by side
-                 function four() {
-                   for (i = 0; i < elements.length; i++) {
-                     elements[i].style.msFlex = "25%";  // IE10
-                     elements[i].style.flex = "25%";
-                   }
-                 }
-                 
-                 // Add active class to the current button (highlight it)
-                 var header = document.getElementById("myHeader");
-                 var btns = header.getElementsByClassName("btn");
-                 for (var i = 0; i < btns.length; i++) {
-                   btns[i].addEventListener("click", function() {
-                     var current = document.getElementsByClassName("active");
-                     current[0].className = current[0].className.replace(" active", "");
-                     this.className += " active";
-                   });
-                 }
-                 </script>
+               
                  
       <!--QUOTES -->
-      <div
+    
       
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <style>
@@ -344,6 +241,8 @@
           display: none;
           padding: 80px;
           text-align: center;
+          background-color: #2196F3;
+         
         }
         
         /* Next & previous buttons */
@@ -371,7 +270,7 @@
         /* On hover, add a black background color with a little bit see-through */
         .prev:hover, .next:hover {
           background-color: rgba(0,0,0,0.8);
-          color: white;
+          color: yellow;
         }
         
         /* The dot/bullet/indicator container */
@@ -578,18 +477,12 @@
         }
         body{
             background-image: url(swim.webp);
-            height: 100vh;
-            width: 90%;
+            height: 200px;
+            width: 60%;
             background-origin: padding-box;
             background-repeat: no-repeat;
         background-color:black;
-        background-size: cover;
-        background-clip: content-box;
-        
-        
-            margin: 0;
-            padding: 0;
-            max-width: 500%;
+      
            
         }
         .Welcome{
